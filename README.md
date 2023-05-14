@@ -1,6 +1,6 @@
 # Technology Economics
 
-This repository contains various production functions commonly used in microeconomics. It explores the behavior of input decisions, expenditure shares, and output prices in response to changes in input prices. The production functions implemented in this repository include Perfect Complements, Perfect Substitutes, Cobb-Douglas, and CES.
+This repository contains various production functions commonly used in microeconomics implemented in Python. It explores the behavior of input decisions, expenditure shares, and output prices in response to changes in input prices. The production functions implemented in this repository include Perfect Complements, Perfect Substitutes, Cobb-Douglas, and CES.
 
 ## Production Functions
 
@@ -14,25 +14,33 @@ This repository contains various production functions commonly used in microecon
 
 ## How to Use
 
-To use the production functions implemented in this repository, follow these steps:
+To use the production functions implemented in this repository with Python, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 
-   ```
+   ```bash
    git clone https://github.com/franc703/technology_economics.git
    ```
 
 2. Navigate to the cloned repository directory:
 
-   ```
+   ```bash
    cd technology_economics
    ```
 
-3. Explore the production function files to understand their implementation and mathematical representation.
+3. Explore the production function files (`*.py`) to understand their implementation and mathematical representation.
 
-4. Execute the desired production function file using a compatible programming language or software. Make sure to provide appropriate inputs and input prices as required.
+4. Install the required Python dependencies using the following command:
 
-5. Analyze the output to gain insights into the behavior of input decisions, expenditure shares, and output prices under different scenarios.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Use your preferred Python IDE or text editor to open the production function file you want to work with.
+
+6. Modify the input values and input prices as required in the file.
+
+7. Run the Python script and observe the output to gain insights into the behavior of input decisions, expenditure shares, and output prices under different scenarios.
 
 ## Contributing
 
@@ -42,7 +50,7 @@ Contributions to this repository are welcome! If you would like to contribute, p
 
 2. Create a new branch for your contribution:
 
-   ```
+   ```bash
    git checkout -b my-contribution
    ```
 
@@ -50,13 +58,13 @@ Contributions to this repository are welcome! If you would like to contribute, p
 
 4. Commit your changes with a descriptive commit message:
 
-   ```
+   ```bash
    git commit -m "Add feature: description"
    ```
 
 5. Push your branch to your forked repository:
 
-   ```
+   ```bash
    git push origin my-contribution
    ```
 
@@ -65,5 +73,3 @@ Contributions to this repository are welcome! If you would like to contribute, p
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
-
-Please note that this README.md file is a template and should be customized according to your specific project requirements.
